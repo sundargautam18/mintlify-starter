@@ -1,0 +1,79 @@
+{
+  "projectType": "saas",
+  "projectName": "Annapurna Art",
+  "projectDescription": "Annapurna Art is a curated online marketplace and gallery platform connecting artists and collectors worldwide through artwork sales, virtual and physical exhibitions, and expert art advisory services.",
+  "theme": "almond",
+  "primaryColor": "#449eed",
+  "lightColor": "#604c43",
+  "darkColor": "#dfcdc0",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["index", "about-us", "exhibitions", "blogs"]
+          }
+        ]
+      },
+      {
+        "tab": "For Artists",
+        "groups": [
+          {
+            "group": "Selling on Annapurna Art",
+            "pages": ["apply-to-sell", "getting-started", "artist-support"]
+          },
+          {
+            "group": "Policies",
+            "pages": ["terms-and-conditions"]
+          }
+        ]
+      },
+      {
+        "tab": "For Buyers",
+        "groups": [
+          {
+            "group": "Buying & Support",
+            "pages": ["buyer-support", "art-adviosary", "shipping-and-delivery-1"]
+          },
+          {
+            "group": "Policies",
+            "pages": ["return-policy", "terms-and-condition"]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "groups": [
+          {
+            "group": "Policies",
+            "pages": ["privacy-policy", "cookie-policy", "tax-policy"]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Curated art marketplace with verified artists and original artworks",
+    "Artist Dashboard for managing listings, sales, orders, and virtual exhibitions",
+    "Make an Offer feature for collectors to negotiate artwork prices",
+    "Physical gallery in Bhaktapur, Nepal for in-person exhibition experiences",
+    "Virtual Exhibition Platform for immersive online gallery experiences",
+    "Art Advisory service connecting collectors with expert curators",
+    "Global insured shipping with customs fees included at checkout",
+    "Role Management for artists to delegate account access to team members",
+    "Secure payments via Stripe with 14-day payment release after delivery",
+    "14-day return window for buyers on eligible artworks"
+  ],
+  "publicApiSurface": [
+    "Artist signup: https://artist.annapurnaart.com/signup",
+    "Browse artworks: https://annapurnaart.com/category/all/arts",
+    "Artist Dashboard: Overview, Analytics, Artworks, Offers, Finance, Virtual Exhibitions, Role Management, Orders",
+    "Artwork listing fields: title, description, price, Make an Offer toggle, dominant colors, category, subject, style, medium, material, tags, dimensions, weight, pickup location, background/virtual wall image",
+    "Virtual Exhibition creation and publishing via Artist Dashboard",
+    "Contact/Support: https://annapurnaart.com/contact-us",
+    "Physical gallery: Radhe Radhe, Bhaktapur, Nepal",
+    "Art categories: Painting, Drawing, Mixed Media, Printmaking, Sculpture, Digital, Photography"
+  ]
+}

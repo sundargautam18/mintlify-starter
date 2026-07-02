@@ -1,72 +1,93 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "almond",
+  "name": "Annapurna Art",
+  "description": "Discover, buy, and sell original artworks from artists around the world.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#449eed",
+    "light": "#604c43",
+    "dark": "#dfcdc0"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://media.brand.dev/b3a07b3f-5589-4b86-b571-cadb676151f8.jpg",
+  "logo": {
+    "light": "https://annapurnaart.com/header_logo.png",
+    "dark": "https://annapurnaart.com/header_logo.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Browse Art",
+      "href": "https://annapurnaart.com/category/all/arts"
+    }
+  },
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Visit Website",
+          "icon": "globe",
+          "href": "https://annapurnaart.com"
         }
       ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
+    },
+    "tabs": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["index", "about-us", "exhibitions", "blogs"]
+          }
+        ]
+      },
+      {
+        "tab": "For Artists",
+        "groups": [
+          {
+            "group": "Selling on Annapurna Art",
+            "pages": ["apply-to-sell", "getting-started", "artist-support"]
+          },
+          {
+            "group": "Policies",
+            "pages": ["terms-and-conditions"]
+          }
+        ]
+      },
+      {
+        "tab": "For Buyers",
+        "groups": [
+          {
+            "group": "Buying & Support",
+            "pages": ["buyer-support", "art-adviosary", "shipping-and-delivery-1"]
+          },
+          {
+            "group": "Policies",
+            "pages": ["return-policy", "terms-and-condition"]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "groups": [
+          {
+            "group": "Policies",
+            "pages": ["privacy-policy", "cookie-policy", "tax-policy"]
+          }
+        ]
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+    "socials": {}
+  },
+  "redirects": [
+    {
+      "source": "/art-advisory",
+      "destination": "/art-adviosary",
+      "permanent": true
     }
-  }
+  ]
 }
